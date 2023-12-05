@@ -1,0 +1,372 @@
+/* Any custom CSS you would like to specify for your site can go here. */
+
+/* profle.php */
+
+.whole-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: left;
+  flex-direction: column;
+  align-content: flex-start;
+}
+
+.smaller-cont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2rem 0;
+  /* padding: 0 15px; */
+}
+
+.info {
+  /* padding: 0 15px; */
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 0;
+}
+
+.info-header {
+  font-size: 1.8rem;
+  margin: 0 20rem 0 0;
+}
+
+/* .statistics {
+  /* padding: 0 15px;
+} */
+
+.stats-header {
+  font-size: 1.8rem;
+  margin: 0;
+}
+
+.stats-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 2rem 0;
+}
+
+.rating-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-top: 2rem;
+}
+
+.buttons-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: left;
+  align-content: flex-start;
+}
+
+.info-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: top;
+}
+
+.top-comment-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: space-around;
+  align-items: baseline;
+  width: 100%;
+  margin: 2rem 0;
+}
+
+.button-add {
+  width: 10rem !important;
+}
+
+.btn-delete {
+  border-color: #c80505 !important;
+  color: #c80505 !important;
+  width: 7rem;
+}
+
+.btn-delete:hover {
+  border-color: #c80505 !important;
+  color: white !important;
+  background-color: #c80505 !important;
+}
+
+.comments-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+.comment-item {
+  border-radius: 0.25rem;
+  border: 0.05rem solid #007bff;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.75rem 1.25rem;
+  background-color: #fff;
+  position: relative;
+  list-style: none;
+}
+.comment-wrap {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 0rem;
+  width: 100%;
+}
+
+.comment-left-wrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: space-around;
+  align-items: baseline;
+  width: 100%;
+}
+
+.comment-right-wrap {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 100%;
+}
+
+/* listing item */
+
+.auction-item {
+  margin: 0.75rem 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1.5rem 1.25rem;
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  position: relative;
+  gap: 6rem;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  color: #212529;
+}
+
+.item-link {
+  color: #212529;
+}
+.item-link:hover {
+  text-decoration: none;
+}
+
+.blue-text {
+  color: #007bff;
+}
+
+.auction-item:hover {
+  background-color: #e8f3ff9e;
+  text-decoration: none;
+}
+.info-item-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 70%;
+  align-items: flex-start;
+}
+
+.listing-num-container {
+  display: flex;
+  flex-direction: column;
+  width: 85%;
+}
+
+.listing-label {
+  margin: 0;
+  text-wrap: nowrap;
+}
+
+.current-bid {
+  width: 50%;
+  text-align: left;
+}
+
+.item-descr {
+  width: 50%;
+}
+
+.recent-bids {
+  font-size: 1rem;
+}
+.recent-bids-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info-bids-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 70%;
+  align-items: flex-start;
+}
+
+.all-recent-bids {
+  padding-left: 1rem;
+  border-left: 1px solid rgba(0, 0, 0, 0.125);
+  text-align: center;
+  text-wrap: nowrap;
+  width: 58%;
+}
+
+/* browse.php design */
+.browse-header {
+  margin: 3rem 0;
+}
+
+.condition {
+  margin-right: 1rem;
+}
+
+/* new auction style */
+
+.new-auction-header {
+  margin: 2rem 0;
+}
+
+.card {
+  margin-bottom: 5rem;
+}
+
+.card-body {
+  padding: 2rem 1rem !important;
+}
+
+/* my listings */
+.pad {
+  padding-left: 15px;
+}
+
+.not-found {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #007bff;
+  margin: 3rem auto;
+  width: 100%;
+  text-align: center;
+}
+
+/* listing.php */
+
+.watch-header {
+  margin: 3rem 0 0 0;
+}
+.header-container {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0;
+  margin-bottom: 3rem;
+}
+
+.buttons-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+  width: 46%;
+}
+
+.watching-success {
+  color: #28a745;
+  margin: 0;
+}
+.watch-wrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 59%;
+}
+
+.btn-margin {
+  margin-left: 3.2rem;
+}
+
+.btn-wide {
+  width: 13rem;
+}
+
+/* info display on the left */
+.item-info-wrap {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 1.5rem;
+}
+
+.item-info {
+  margin: 0;
+}
+
+.info-labels {
+  margin: 0;
+  width: 30%;
+}
+
+.item-profile-link {
+  text-decoration: underline;
+  color: #007bff;
+}
+
+.current-bid {
+  margin: 0;
+}
+
+.bid-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+  margin-bottom: 2rem;
+}
+
+.prev-bids-container {
+  margin: 0;
+}
+
+.prev-bid-label {
+  margin: 0 0 1rem 0;
+  font-size: 1.25rem;
+}
+
+.prev-bids-table {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+.prev-bid {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.wide-prev-bid {
+  width: 112px;
+}
+
+.bold-bid {
+  font-weight: 600;
+}
+
+.listing-num-container-win {
+  width: 30%;
+}
+
+.listing-num-container-with-win {
+  width: 55%;
+}
